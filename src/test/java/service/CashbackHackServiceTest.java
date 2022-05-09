@@ -33,11 +33,11 @@ public class CashbackHackServiceTest {
         assertEquals(expected, actual);
     }
 
-//    @Test
-//    public void testRemainAmountBoundary() {
-//
-//        int actual = service.remain(1000);
-//        int expected = 0;
-//        assertEquals(expected, actual);
-//    }
+    @Test
+    public void testRemainAmountBoundary() {
+
+        int actual = service.remain(1000);
+        int expected = 0;
+        assertEquals(expected, actual);
+    }
 }
